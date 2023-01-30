@@ -1,0 +1,43 @@
+Python coding challenge 
+
+ 
+
+Objective: Your challenge is to process the unstructured data from a JSON file using python. 
+
+
+
+Input JSON file : py_challange_input.json
+
+
+
+About the data:  The json file has data listed for cricket matches in different formats and in different regions in Australia or international. There are two formats namely ODI and T20, three types of regions in two formats. Regions might be any one of the following: north, south, central in Australia and there can be international matches also.
+
+
+
+Required Outcome: Your job is to extract the details for each match and store it as the dictionary. There should be one dictionary for each match and finally the program should return the data as a list of dictionaries transformed into a structured format. 
+
+
+
+Input: The program should have a single-entry point that accepts the provided json file location. 
+
+
+
+Output: The program should return the list of dictionaries and each dictionary should contain the following keys from the json file. 
+
+match_id 
+livestream_provider
+winner of the match 
+httplink of match 
+region name
+team1 & team2 playing in the match  
+
+
+Additionally, if time permits, print out the following to the standard output console:
+
+How many international matches took place?
+Which team has scored the most points overall?
+What are the percentage of matches played in north, south and central regions in Australia?
+How many results are withheld? Also, form the dataframe with teams and match_id of withheld matches.
+
+
+Note: One who tries to complete these 4 questions will have a better chance in the race. 

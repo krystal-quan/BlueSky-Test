@@ -1,0 +1,558 @@
+{
+  "Cricket": [
+    {
+      "formats": [
+        {
+          "formatName": "T20",
+          "formatDayType": "Half day match",
+          "regions": [
+            {
+              "id": 666,
+              "name": "north",
+              "isInternational": false,
+              "matches": [
+                {
+                  "id": 6038,
+                  "startTime": 1629944520,
+                  "team1": "T1",
+                  "team2": "T2",
+                  "venue": "V1",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "north-sky",
+                      "channel": "001"
+                    }
+                  },
+                  "results":{
+                    "winner": "T2",
+                    "points": 2,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/north/t1vst2/v1/6038",
+                  "isInternational": false
+                },
+                {
+                  "id": 6039,
+                  "startTime": 1629944520,
+                  "team1": "T2",
+                  "team2": "T3",
+                  "venue": "V2",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "north-sky",
+                      "channel": "002"
+                    }
+                  },
+                  "results":{
+                    "winner": "T2",
+                    "points": 2,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/north/t2vst3/v2/6039",
+                  "isInternational": false
+                },
+                {
+                  "id": 6040,
+                  "startTime": 1629944520,
+                  "team1": "T3",
+                  "team2": "T4",
+                  "venue": "V3",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "north-sky",
+                      "channel": "003"
+                    }
+                  },
+                  "results":{
+                    "winner": "T4",
+                    "points": 2,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/north/t3vst4/v3/6040",
+                  "isInternational": false
+                },
+                {
+                  "id": 6041,
+                  "startTime": 1629944520,
+                  "team1": "T4",
+                  "team2": "T1",
+                  "venue": "V4",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "north-sky",
+                      "channel": "004"
+                    }
+                  },
+                  "results":{
+                    "winner": "",
+                    "points": 0,
+                    "resultsWithheld": true
+                  },
+                  "httpLink": "cric/t20/north/t4vst1/v4/6041",
+                  "isInternational": false
+                }
+              ]
+            },
+            {
+              "id": 777,
+              "name": "south",
+              "isInternational": false,
+              "streamingAvailable": false,
+              "matches": [
+                {
+                  "id": 7038,
+                  "startTime": 1629944520,
+                  "team1": "T5",
+                  "team2": "T6",
+                  "venue": "V5",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "south-sky",
+                      "channel": "101"
+                    }
+                  },
+                  "results":{
+                    "winner": "T6",
+                    "points": 2,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/south/t5vst6/v5/7038",
+                  "isInternational": false
+                },
+                {
+                  "id": 7039,
+                  "startTime": 1629944520,
+                  "team1": "T6",
+                  "team2": "T7",
+                  "venue": "V6",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "south-sky",
+                      "channel": "102"
+                    }
+                  },
+                  "results":{
+                    "winner": "",
+                    "points": 0,
+                    "resultsWithheld": true
+                  },
+                  "httpLink": "cric/t20/south/t6vst7/v6/7039",
+                  "isInternational": false
+                },
+                {
+                  "id": 7040,
+                  "startTime": 1629944520,
+                  "team1": "T7",
+                  "team2": "T8",
+                  "venue": "V7",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "south-sky",
+                      "channel": "103"
+                    }
+                  },
+                  "results":{
+                    "winner": "T8",
+                    "points": 2,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/south/t7vst8/v7/7040",
+                  "isInternational": false
+                },
+                {
+                  "id": 7041,
+                  "startTime": 1629944520,
+                  "team1": "T8",
+                  "team2": "T5",
+                  "venue": "V8",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "south-sky",
+                      "channel": "104"
+                    }
+                  },
+                  "results":{
+                    "winner": "T8",
+                    "points": 2,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/south/t8vst5/v8/7041",
+                  "isInternational": false
+                }
+              ]
+            },
+            {
+              "id": 888,
+              "name": "central",
+              "isInternational": false,
+              "streamingAvailable": false,
+              "matches":[
+                {
+                  "id": 8038,
+                  "startTime": 1629944520,
+                  "team1": "T10",
+                  "team2": "T11",
+                  "venue": "V10",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "central-sky",
+                      "channel": "201"
+                    }
+                  },
+                  "results":{
+                    "winner": "T10",
+                    "points": 2,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/central/t10vst11/v10/8038",
+                  "isInternational": false
+                },
+                {
+                  "id": 8039,
+                  "startTime": 1629944520,
+                  "team1": "T11",
+                  "team2": "T12",
+                  "venue": "V11",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "central-sky",
+                      "channel": "202"
+                    }
+                  },
+                  "results":{
+                    "winner": "T12",
+                    "points": 2,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/central/t11vst12/v11/8039",
+                  "isInternational": false
+                },
+                {
+                  "id": 8040,
+                  "startTime": 1629944520,
+                  "team1": "T12",
+                  "team2": "T13",
+                  "venue": "V12",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "central-sky",
+                      "channel": "203"
+                    }
+                  },
+                  "results":{
+                    "winner": "T12",
+                    "points": 2,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/central/t12vst13/v12/8040",
+                  "isInternational": false
+                },
+                {
+                  "id": 8041,
+                  "startTime": 1629944520,
+                  "team1": "T13",
+                  "team2": "T10",
+                  "venue": "V13",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "central-sky",
+                      "channel": "204"
+                    }
+                  },
+                  "results":{
+                    "winner": "T10",
+                    "points": 2,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/central/t13vst10/v13/8041",
+                  "isInternational": false
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "formatName": "ODI",
+          "formatDayType": "One day match",
+          "regions": [
+            {
+              "id": 999,
+              "name": "NewZealand",
+              "isInternational": true,
+              "matches": [
+                {
+                  "id": 16038,
+                  "startTime": 1629944520,
+                  "team1": "T1",
+                  "team2": "T2",
+                  "venue": "NZ-V1",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "nz-ez",
+                      "channel": "001"
+                    }
+                  },
+                  "results":{
+                    "winner": "T2",
+                    "points": 4,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/odi/nz/t1vst2/v1/16038",
+                  "isInternational": true
+                },
+                {
+                  "id": 16039,
+                  "startTime": 1629944520,
+                  "team1": "T2",
+                  "team2": "T3",
+                  "venue": "NZ-V2",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "nz-ez",
+                      "channel": "002"
+                    }
+                  },
+                  "results":{
+                    "winner": "T2",
+                    "points": 4,
+                    "resultsWithheld": false
+                  },
+
+                  "httpLink": "cric/odi/nz/t2vst3/v2/16039",
+                  "isInternational": true
+                },
+                {
+                  "id": 16040,
+                  "startTime": 1629944520,
+                  "team1": "T3",
+                  "team2": "T4",
+                  "venue": "NZ-V3",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "nz-ez",
+                      "channel": "003"
+                    }
+                  },
+                  "results":{
+                    "winner": "T4",
+                    "points": 4,
+                    "resultsWithheld": false
+                  },
+
+                  "httpLink": "cric/odi/nz/t3vst4/v3/16040",
+                  "isInternational": true
+                },
+                {
+                  "id": 16041,
+                  "startTime": 1629944520,
+                  "team1": "T4",
+                  "team2": "T1",
+                  "venue": "NZ-V4",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "nz-ez",
+                      "channel": "004"
+                    }
+                  },
+                  "results":{
+                    "winner": "T1",
+                    "points": 4,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/odi/nz/t4vst1/v4/16041",
+                  "isInternational": true
+                }
+              ]
+            },
+            {
+              "id": 777,
+              "name": "south",
+              "isInternational": false,
+              "streamingAvailable": false,
+              "matches": [
+                {
+                  "id": 17038,
+                  "startTime": 1629944520,
+                  "team1": "T5",
+                  "team2": "T6",
+                  "venue": "V5",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "south-sky",
+                      "channel": "101"
+                    }
+                  },
+                  "results":{
+                    "winner": "T5",
+                    "points": 4,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/south/t5vst6/v5/17038",
+                  "isInternational": false
+                },
+                {
+                  "id": 17039,
+                  "startTime": 1629944520,
+                  "team1": "T6",
+                  "team2": "T7",
+                  "venue": "V6",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "south-sky",
+                      "channel": "102"
+                    }
+                  },
+                  "results":{
+                    "winner": "T6",
+                    "points": 4,
+                    "resultsWithheld": false
+                  },
+
+                  "httpLink": "cric/t20/south/t6vst7/v6/17039",
+                  "isInternational": false
+                },
+                {
+                  "id": 17040,
+                  "startTime": 1629944520,
+                  "team1": "T7",
+                  "team2": "T8",
+                  "venue": "V7",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "south-sky",
+                      "channel": "103"
+                    }
+                  },
+                  "results":{
+                    "winner": "",
+                    "points": 0,
+                    "resultsWithheld": true
+                  },
+
+                  "httpLink": "cric/t20/south/t7vst8/v7/17040",
+                  "isInternational": false
+                },
+                {
+                  "id": 17041,
+                  "startTime": 1629944520,
+                  "team1": "T8",
+                  "team2": "T5",
+                  "venue": "V8",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "south-sky",
+                      "channel": "104"
+                    }
+                  },
+                  "results":{
+                    "winner": "T8",
+                    "points": 4,
+                    "resultsWithheld": false
+                  },
+                  "httpLink": "cric/t20/south/t8vst5/v8/17041",
+                  "isInternational": false
+                }
+              ]
+            },
+            {
+              "id": 888,
+              "name": "central",
+              "isInternational": false,
+              "matches":[
+                {
+                  "id": 18038,
+                  "startTime": 1629944520,
+                  "team1": "T10",
+                  "team2": "T11",
+                  "venue": "V10",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "central-sky",
+                      "channel": "201"
+                    }
+                  },
+                  "results":{
+                    "winner": "T10",
+                    "points": 4,
+                    "resultsWithheld": false
+                  },
+                  "streamingAvailable": false,
+                  "availableStreamingType": null,
+                  "httpLink": "cric/t20/central/t10vst11/v10/18038",
+                  "isInternational": false
+                },
+                {
+                  "id": 18039,
+                  "startTime": 1629944520,
+                  "team1": "T11",
+                  "team2": "T12",
+                  "venue": "V11",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "central-sky",
+                      "channel": "202"
+                    }
+                  },
+                  "results":{
+                    "winner": "T12",
+                    "points": 4,
+                    "resultsWithheld": false
+                  },
+                  "streamingAvailable": false,
+                  "availableStreamingType": null,
+                  "httpLink": "cric/t20/central/t11vst12/v11/18039",
+                  "isInternational": false
+                },
+                {
+                  "id": 18040,
+                  "startTime": 1629944520,
+                  "team1": "T12",
+                  "team2": "T13",
+                  "venue": "V12",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "central-sky",
+                      "channel": "203"
+                    }
+                  },
+                  "results":{
+                    "winner": "T12",
+                    "points": 4,
+                    "resultsWithheld": false
+                  },
+                  "streamingAvailable": false,
+                  "availableStreamingType": null,
+                  "httpLink": "cric/t20/central/t12vst13/v12/18040",
+                  "isInternational": false
+                },
+                {
+                  "id": 18041,
+                  "startTime": 1629944520,
+                  "team1": "T13",
+                  "team2": "T10",
+                  "venue": "V13",
+                  "streaming": {
+                    "liveStream": {
+                      "provider": "central-sky",
+                      "channel": "204"
+                    }
+                  },
+                  "results":{
+                    "winner": "T10",
+                    "points": 4,
+                    "resultsWithheld": false
+                  },
+                  "streamingAvailable": false,
+                  "availableStreamingType": null,
+                  "httpLink": "cric/t20/central/t13vst10/v13/18041",
+                  "isInternational": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
